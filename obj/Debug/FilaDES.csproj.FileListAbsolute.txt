@@ -1,7 +1,0 @@
-c:\users\mikael medeiros\documents\visual studio 2015\Projects\FilaDES\FilaDES\bin\Debug\FilaDES.exe.config
-c:\users\mikael medeiros\documents\visual studio 2015\Projects\FilaDES\FilaDES\obj\Debug\FilaDES.csprojResolveAssemblyReference.cache
-C:\Users\Mikael Medeiros\documents\visual studio 2015\Projects\FilaDES\FilaDES\bin\Debug\FilaDES.exe
-C:\Users\Mikael Medeiros\documents\visual studio 2015\Projects\FilaDES\FilaDES\bin\Debug\FilaDES.pdb
-C:\Users\Mikael Medeiros\documents\visual studio 2015\Projects\FilaDES\FilaDES\bin\Debug\MySql.Data.dll
-C:\Users\Mikael Medeiros\documents\visual studio 2015\Projects\FilaDES\FilaDES\obj\Debug\FilaDES.exe
-C:\Users\Mikael Medeiros\documents\visual studio 2015\Projects\FilaDES\FilaDES\obj\Debug\FilaDES.pdb

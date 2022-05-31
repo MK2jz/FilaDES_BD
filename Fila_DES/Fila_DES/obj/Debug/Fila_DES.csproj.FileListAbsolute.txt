@@ -7,3 +7,11 @@ C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\Fila_DES\Fila_DES\bin\Deb
 C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\Fila_DES\Fila_DES\bin\Debug\Ubiety.Dns.Core.dll
 C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\Fila_DES\Fila_DES\obj\Debug\Fila_DES.exe
 C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\Fila_DES\Fila_DES\obj\Debug\Fila_DES.pdb
+C:\Users\Mikael Medeiros\Desktop\FilaDES_BD\Fila_DES\Fila_DES\bin\Debug\Fila_DES.exe.config
+C:\Users\Mikael Medeiros\Desktop\FilaDES_BD\Fila_DES\Fila_DES\obj\Debug\Fila_DES.exe
+C:\Users\Mikael Medeiros\Desktop\FilaDES_BD\Fila_DES\Fila_DES\obj\Debug\Fila_DES.pdb
+C:\Users\Mikael Medeiros\Desktop\FilaDES_BD\Fila_DES\Fila_DES\bin\Debug\Fila_DES.exe
+C:\Users\Mikael Medeiros\Desktop\FilaDES_BD\Fila_DES\Fila_DES\bin\Debug\Fila_DES.pdb
+C:\Users\Mikael Medeiros\Desktop\FilaDES_BD\Fila_DES\Fila_DES\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mikael Medeiros\Desktop\FilaDES_BD\Fila_DES\Fila_DES\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Mikael Medeiros\Desktop\FilaDES_BD\Fila_DES\Fila_DES\obj\Debug\Fila_DES.csprojResolveAssemblyReference.cache

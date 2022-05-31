@@ -36,5 +36,23 @@ namespace Fila_DES
             Console.WriteLine("\n Digite o número da fila de quem você deseja excluir:");
             nfila = Console.ReadLine();
         }
+
+        public void atualizar()
+        {
+            Console.Clear();
+
+            Console.WriteLine("\n Digite o número da fila de quem você deseja atualizar um dado:");
+            nfila = Console.ReadLine();
+
+            Console.WriteLine("Nome:");
+            nome = Console.ReadLine();
+
+            Console.WriteLine("Idade:");
+            idade = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Sexo:");
+            sexo = Console.ReadLine();
+
+        }
     }
 }

@@ -39,7 +39,10 @@ namespace Fila_DES
             while (rdr.Read())
             {
                 Console.WriteLine("\nN° Fila: {0} | Nome: {1} | Idade: {2} | Sexo: {3}", rdr["nfila"], rdr["nome"], rdr["idade"], rdr["sexo"]);
+
             }
+            Console.WriteLine("\nClique em qualquer tecla para sair");
+
             Console.ReadKey();
         }
 
@@ -52,8 +55,11 @@ namespace Fila_DES
             cmd.Parameters.AddWithValue("@Idade", C.idade);
             cmd.Parameters.AddWithValue("@Sexo", C.sexo);
             cmd.ExecuteNonQuery();
-            Console.WriteLine("\nCadastro efetuado!");
-            
+            Console.WriteLine("\nOK... cadastrado!");
+            Console.ForegroundColor = ConsoleColor.Red;
+           //Console.ResetColor();
+            Console.WriteLine("\nClique em qualquer tecla para sair");
+          
         }
 
         public void delete(controle P)
@@ -63,9 +69,25 @@ namespace Fila_DES
             String sql = "DELETE from paciente where nfila=@nfila";
             cmd = new MySqlCommand(sql, conexao);
             cmd.Parameters.AddWithValue("@nfila", P.nfila);
-            cmd.ExecuteNonQuery();
+            //cmd.ExecuteNonQuery();
             Console.Clear();
-            Console.WriteLine("\nPessoa deletada!");
+            Console.WriteLine("\nOK... deletado!");
+            Console.WriteLine("\nClique em qualquer tecla para sair");
+            Console.ReadKey();
+            conexao.Close();
+        }
+
+        public void atualizar(controle A)
+        {
+            String sql = "update controle set nome=@nome, sexo=@sexo, idade=@idade where nfila=@nfila";
+            cmd = new MySqlCommand(sql, conexao);
+            cmd.Parameters.AddWithValue("@nfila", A.nfila);
+            cmd.Parameters.AddWithValue("@nome", A.nome);
+            cmd.Parameters.AddWithValue("@idade", A.idade);
+            cmd.Parameters.AddWithValue("@sexo", A.sexo);
+            //cmd.ExecuteNonQuery();
+            Console.WriteLine("\nOK... atualizado!");
+            Console.WriteLine("\nClique em qualquer tecla para sair");
             Console.ReadKey();
             conexao.Close();
         }

@@ -25,7 +25,7 @@ namespace Fila_DES
                 Console.WriteLine("\n1 - Cadastrar");
                 Console.WriteLine("2 - Visualizar fila");
                 Console.WriteLine("3 - Excluir pessoa");
-                Console.WriteLine("4 - Alterar informção");
+                Console.WriteLine("4 - Alterar informação");
                 Console.WriteLine("0 - Sair");
 
                 opcao = int.Parse(Console.ReadLine());
@@ -42,7 +42,6 @@ namespace Fila_DES
                     daoo.insert(con);
 
                     Console.ReadKey();
-
 
                 }
                 else if (opcao == 2)
@@ -66,7 +65,10 @@ namespace Fila_DES
                 else if (opcao == 4)
                 {
                     Console.Clear();
-                    Console.WriteLine("--- Alterar dado ----");
+
+                    con.atualizar();
+                    daoo.atualizar(con);
+
                     Console.ReadKey();
                 }
                 else
